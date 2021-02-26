@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="opcua">
+      <UniqueIdentifier>{eba5e09e-360e-40bd-81b2-a2e11cbbe03b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opcua\include">
+      <UniqueIdentifier>{e1f6268e-049e-4cce-a161-fdf05de1f013}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opcua\source">
+      <UniqueIdentifier>{9c9568b2-7699-4780-8063-56bb1370a92b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opcua\core">
+      <UniqueIdentifier>{484e48a8-0b92-4c5e-9a20-3638f0a3d472}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opcua\core\common">
+      <UniqueIdentifier>{9a3020c9-8f46-4c49-b4ea-706abf785961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opcua\core\common\addons_core">
+      <UniqueIdentifier>{f5529938-5e52-41d9-a66c-99218ee4eda5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opcua\protocol">
+      <UniqueIdentifier>{8839c4f8-e6d4-40ba-845c-483aa047b0ab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OpcUaServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpcUaServerDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="opcua\src\server\address_space_addon.h">
+      <Filter>opcua\include</Filter>
+    </ClInclude>
+    <ClInclude Include="opcua\src\server\address_space_internal.h">
+      <Filter>opcua\include</Filter>
+    </ClInclude>
+    <ClInclude Include="opcua\src\server\endpoints_parameters.h">
+      <Filter>opcua\include</Filter>
+    </ClInclude>
+    <ClInclude Include="opcua\src\server\internal_subscription.h">
+      <Filter>opcua\include</Filter>
+    </ClInclude>
+    <ClInclude Include="opcua\src\server\opc_tcp_async_parameters.h">
+      <Filter>opcua\include</Filter>
+    </ClInclude>
+    <ClInclude Include="opcua\src\server\opc_tcp_processor.h">
+      <Filter>opcua\include</Filter>
+    </ClInclude>
+    <ClInclude Include="opcua\src\server\opcua_protocol.h">
+      <Filter>opcua\include</Filter>
+    </ClInclude>
+    <ClInclude Include="opcua\src\server\server_object.h">
+      <Filter>opcua\include</Filter>
+    </ClInclude>
+    <ClInclude Include="opcua\src\server\server_object_addon.h">
+      <Filter>opcua\include</Filter>
+    </ClInclude>
+    <ClInclude Include="opcua\src\server\standard_address_space_parts.h">
+      <Filter>opcua\include</Filter>
+    </ClInclude>
+    <ClInclude Include="opcua\src\server\subscription_service_internal.h">
+      <Filter>opcua\include</Filter>
+    </ClInclude>
+    <ClInclude Include="opcua\src\server\tcp_server.h">
+      <Filter>opcua\include</Filter>
+    </ClInclude>
+    <ClInclude Include="opcua\src\server\timer.h">
+      <Filter>opcua\include</Filter>
+    </ClInclude>
+    <ClInclude Include="opcua\src\server\xml_address_space_loader.h">
+      <Filter>opcua\include</Filter>
+    </ClInclude>
+    <ClInclude Include="opcua\src\server\xml_processor.h">
+      <Filter>opcua\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="OpcUaServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OpcUaServerDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\server\address_space_addon.cpp">
+      <Filter>opcua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\server\address_space_internal.cpp">
+      <Filter>opcua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\server\asio_addon.cpp">
+      <Filter>opcua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\server\common_addons.cpp">
+      <Filter>opcua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\server\endpoints_parameters.cpp">
+      <Filter>opcua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\server\endpoints_registry.cpp">
+      <Filter>opcua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\server\endpoints_services_addon.cpp">
+      <Filter>opcua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\server\internal_subscription.cpp">
+      <Filter>opcua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\server\opc_tcp_async.cpp">
+      <Filter>opcua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\server\opc_tcp_async_addon.cpp">
+      <Filter>opcua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\server\opc_tcp_async_parameters.cpp">
+      <Filter>opcua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\server\opc_tcp_processor.cpp">
+      <Filter>opcua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\server\opcua_protocol_addon.cpp">
+      <Filter>opcua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\server\server.cpp">
+      <Filter>opcua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\server\server_object.cpp">
+      <Filter>opcua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\server\server_object_addon.cpp">
+      <Filter>opcua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\server\services_registry_factory.cpp">
+      <Filter>opcua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\server\services_registry_impl.cpp">
+      <Filter>opcua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\server\standard_address_space.cpp">
+      <Filter>opcua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\server\standard_address_space_addon.cpp">
+      <Filter>opcua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\server\standard_address_space_part3.cpp">
+      <Filter>opcua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\server\standard_address_space_part4.cpp">
+      <Filter>opcua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\server\standard_address_space_part5.cpp">
+      <Filter>opcua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\server\standard_address_space_part8.cpp">
+      <Filter>opcua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\server\standard_address_space_part9.cpp">
+      <Filter>opcua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\server\standard_address_space_part10.cpp">
+      <Filter>opcua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\server\standard_address_space_part11.cpp">
+      <Filter>opcua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\server\standard_address_space_part13.cpp">
+      <Filter>opcua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\server\subscription_service_addon.cpp">
+      <Filter>opcua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\server\subscription_service_internal.cpp">
+      <Filter>opcua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\server\tcp_server.cpp">
+      <Filter>opcua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\server\xml_address_space_addon.cpp">
+      <Filter>opcua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\server\xml_address_space_loader.cpp">
+      <Filter>opcua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\core\event.cpp">
+      <Filter>opcua\core</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\core\model_node.cpp">
+      <Filter>opcua\core</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\core\model_object.cpp">
+      <Filter>opcua\core</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\core\model_object_type.cpp">
+      <Filter>opcua\core</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\core\model_server.cpp">
+      <Filter>opcua\core</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\core\model_variable.cpp">
+      <Filter>opcua\core</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\core\node.cpp">
+      <Filter>opcua\core</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\core\opcua_errors.cpp">
+      <Filter>opcua\core</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\core\server_operations.cpp">
+      <Filter>opcua\core</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\core\socket_channel.cpp">
+      <Filter>opcua\core</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\core\subscription.cpp">
+      <Filter>opcua\core</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\core\common\common_errors.cpp">
+      <Filter>opcua\core\common</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\core\common\exception.cpp">
+      <Filter>opcua\core\common</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\core\common\thread.cpp">
+      <Filter>opcua\core\common</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\core\common\uri_facade_win.cpp">
+      <Filter>opcua\core\common</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\core\common\value.cpp">
+      <Filter>opcua\core\common</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\core\common\addons_core\addon_manager.cpp">
+      <Filter>opcua\core\common\addons_core</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\core\common\addons_core\config_file.cpp">
+      <Filter>opcua\core\common\addons_core</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\core\common\addons_core\dynamic_addon_factory.cpp">
+      <Filter>opcua\core\common\addons_core</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\core\common\addons_core\dynamic_library_win.cpp">
+      <Filter>opcua\core\common\addons_core</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\core\common\addons_core\errors_addon_manager.cpp">
+      <Filter>opcua\core\common\addons_core</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\protocol\binary_attribute.cpp">
+      <Filter>opcua\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\protocol\binary_data_value.cpp">
+      <Filter>opcua\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\protocol\binary_endpoints.cpp">
+      <Filter>opcua\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\protocol\binary_messages.cpp">
+      <Filter>opcua\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\protocol\binary_node_management.cpp">
+      <Filter>opcua\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\protocol\binary_raw_size.cpp">
+      <Filter>opcua\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\protocol\binary_session.cpp">
+      <Filter>opcua\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\protocol\binary_stream.cpp">
+      <Filter>opcua\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\protocol\binary_variant.cpp">
+      <Filter>opcua\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\protocol\binary_view.cpp">
+      <Filter>opcua\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\protocol\constructors_auto.cpp">
+      <Filter>opcua\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\protocol\deserialize_auto.cpp">
+      <Filter>opcua\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\protocol\input_from_buffer.cpp">
+      <Filter>opcua\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\protocol\monitored_items.cpp">
+      <Filter>opcua\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\protocol\nodeid.cpp">
+      <Filter>opcua\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\protocol\protocol.cpp">
+      <Filter>opcua\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\protocol\rawsize_auto.cpp">
+      <Filter>opcua\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\protocol\serialize_auto.cpp">
+      <Filter>opcua\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\protocol\session.cpp">
+      <Filter>opcua\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\protocol\status_codes.cpp">
+      <Filter>opcua\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\protocol\string_utils.cpp">
+      <Filter>opcua\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\protocol\string_utils_attributeid_tostring.cpp">
+      <Filter>opcua\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\protocol\string_utils_objectid_tostring.cpp">
+      <Filter>opcua\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\protocol\string_utils_statuscode_tostring.cpp">
+      <Filter>opcua\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="opcua\src\protocol\subscriptions.cpp">
+      <Filter>opcua\protocol</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OpcUaServer.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\OpcUaServer.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\OpcUaServer.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="OpcUaServer.manifest" />
+  </ItemGroup>
+</Project>
