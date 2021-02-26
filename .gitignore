@@ -1,0 +1,14 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/Debug
+/OpcUaServer/Debug
+/OpcUaServer/Release
+/OpcUaServer/x64/Debug
+/OpcUaServer/x64/Release
+/Release
+/x64
+/OpcUaServer/OpcUaServer.aps
+/OpcUaServer/output.txt
